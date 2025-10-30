@@ -1,4 +1,8 @@
-Step 1:
+This repo holds in-progress work on implementations for [APE 26](https://github.com/jeffjennings/astropy-APEs/blob/APE26/APE26.rst); see the [PR](https://github.com/astropy/astropy-APEs/pull/112) for further discussion. 
+
+Planned implementation stages:
+
+Stage 1:
 ```
 # Unchanging API
 # Normal type hierarchy
@@ -18,7 +22,7 @@ sc = SkyCoord(rep, frame=frame)
 sc = SkyCoord(ra_arr, dec_arr, frame=frame)
 ```
 
-Step 2:
+Stage 2:
 ```
 # Unchanging API
 # Normal type hierarchy
@@ -41,7 +45,7 @@ sc = SkyCoord(c)  # flexible
 sc = SkyCoord(ra_arr, dec_arr, frame=frame)  # flexible
 ```
 
-Step 3:
+Stage 3:
 ```
 # Unchanging API
 # Normal type hierarchy
@@ -63,7 +67,7 @@ sc = SkyCoord(c)  # flexible
 sc = SkyCoord(ra_arr, dec_arr, frame=frame)  # flexible
 ```
 
-Step 4:
+Stage 4:
 ```
 # Unchanging API
 # Normal type hierarchy
